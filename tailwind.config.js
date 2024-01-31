@@ -1,0 +1,1 @@
+//Arquivo apenas para fazer a extensão do tailwind funcionar com cdn no vscode

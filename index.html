@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor Dev</title>
+  
+  <link rel="stylesheet" href="estrelas.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:wght@300&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      content: ["./**/*.{html,js}"],
+      theme: {
+        extend: {
+          fontFamily: {
+            'inter': ['Inter', 'sans-serif'],
+            'lato': ['Lato', 'sans-serif']
+          }
+        },
+      },
+      plugins: [],
+    }
+  </script>
+</head>
+<body>
+  <header class="w-full h-20 bg-[#222222] flex items-center justify-around">
+    <p class="font-inter text-3xl bg-gradient-to-b from-[#235D6C] to-[#0AB7BE] text-transparent bg-clip-text">VICTOR.DEV</p>
+    <svg class="fill-gray-300 w-10 mt-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.467 10.583"><path d="M.53 289.062v4.234h4.232v-4.234zm1.851.794h.53l1.058 2.646h-.53l-.211-.53H2.064l-.212.53h-.53Zm.265.662-.37.926h.74zm2.646 1.72v.529h2.116v3.175H4.233v-2.117h-.529v2.646h4.233v-4.234zm.264.793v.53H4.498v.529h.544c.041.366.172.664.353.896-.272.117-.6.162-.897.162v.53c.412 0 .902-.064 1.323-.316.421.252.91.315 1.323.315v-.53c-.297 0-.625-.044-.897-.16.181-.233.311-.53.353-.897h.544v-.53H6.085v-.529zm.018 1.059h.493a1.09 1.09 0 0 1-.246.595 1.09 1.09 0 0 1-.247-.595z" style="color:#000;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000;solid-opacity:1;vector-effect:none;stroke:none;stroke-width:.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.1993072;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" transform="translate(0 -288.533)"/><text y="23.467" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-size="5" font-weight="bold">Created by Nawicon</text><text y="28.467" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-size="5" font-weight="bold">from the Noun Project</text></svg>
+  </header>
+  <div id="fundo" class="w-full h-96 bg-gradient-to-b from-[#2C3E50] to-[#3498DB] text-[#F6F6F6] text-center">
+    <p class="font-inter text-4xl mt-10 absolute mx-auto left-0 right-0">SEJA BEM-VINDO</p>
+    <p class="font-lato mt-40 text-xl absolute mx-auto left-0 right-0">Olá! Eu me chamo Victor Ferreira, sou um estudante de Analise e Desenvolvimento de Sistemas, apaixonado por computação.</p>
+  </div>
+  <script src="estrelas.js"></script>
+</body>
+</html>
