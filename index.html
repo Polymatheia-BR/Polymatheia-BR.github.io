@@ -4,15 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio do programador Fullstack Victor Ferreira França">
-  <title>Victor Dev</title>
+  <title>VICTOR.DEV</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
   
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
   <script>
     tailwind.config = {
       content: ["./**/*.{html,js}"],
@@ -32,6 +36,7 @@
   </script>
 </head>
 <body class="bg-[#222222] text-[#F6F6F6] w-screen h-screen overflow-x-hidden">
+
   <header class="w-full h-20 bg-[#222222] flex items-center justify-around">
     <p class="font-inter text-3xl bg-gradient-to-b from-[#235D6C] to-[#0AB7BE] text-transparent bg-clip-text">VICTOR.DEV</p>
     <svg class="fill-gray-300 w-10 mt-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.467 10.583"><path d="M.53 289.062v4.234h4.232v-4.234zm1.851.794h.53l1.058 2.646h-.53l-.211-.53H2.064l-.212.53h-.53Zm.265.662-.37.926h.74zm2.646 1.72v.529h2.116v3.175H4.233v-2.117h-.529v2.646h4.233v-4.234zm.264.793v.53H4.498v.529h.544c.041.366.172.664.353.896-.272.117-.6.162-.897.162v.53c.412 0 .902-.064 1.323-.316.421.252.91.315 1.323.315v-.53c-.297 0-.625-.044-.897-.16.181-.233.311-.53.353-.897h.544v-.53H6.085v-.529zm.018 1.059h.493a1.09 1.09 0 0 1-.246.595 1.09 1.09 0 0 1-.247-.595z" style="color:#000;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000;solid-opacity:1;vector-effect:none;stroke:none;stroke-width:.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.1993072;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" transform="translate(0 -288.533)"/><text y="23.467" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-size="5" font-weight="bold">Created by Nawicon</text><text y="28.467" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-size="5" font-weight="bold">from the Noun Project</text></svg>
@@ -40,9 +45,14 @@
   <div id="fundo" class="w-full h-96 bg-gradient-to-b from-[#2C3E50] to-[#3498DB] text-center">
     <p class="font-inter text-4xl mt-10 absolute mx-auto left-0 right-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.40)]">SEJA BEM-VINDO</p>
     <p class="font-lato sm:w-1/2 font-light mt-40 text-xl absolute mx-auto left-0 right-0">Olá! Eu me chamo Victor Ferreira, sou um estudante de Analise e Desenvolvimento de Sistemas, apaixonado por computação.</p>
+    <div class="absolute w-screen flex justify-center gap-20 mt-80 z-50 invert opacity-75">
+      <a href="https://wa.me/8184613388" target="_blank"><img width="50" src="./assets/svg/Redes-Sociais/whatsapp.svg" alt="Icone Whatsapp"></a>
+      <a href="https://www.linkedin.com/in/victor-ferreira-franca/" target="_blank"><img width="50" src="./assets/svg/Redes-Sociais/linkedin.svg" alt="Icone Linkedin"></a>
+      <a href="mailto:victorferreira8613@gmail.com" target="_blank"><img width="50" src="./assets/svg/Redes-Sociais/email.svg" alt="Icone Email"></a>
+    </div>
   </div>
 
-  <div class="text-center h-[500px] sm:h-full bg-labirinto bg-center bg-cover">
+  <div class="text-center bg-labirinto bg-center bg-cover pb-20">
     <p class="font-inter pt-10 text-5xl bg-gradient-to-b from-[#235D6C] to-[#0AB7BE] text-transparent bg-clip-text">PROJETOS</p>
     <p class="font-lato italic">Arraste para o lado para ver mais</p>
     <img src="./assets/placeholder.png" class="w-2/3 md:w-2/5 rounded-lg mt-5 mx-auto left-0 right-0" alt="Imagem do Projeto">
@@ -53,60 +63,66 @@
     </div>
     <p class="font-lato mt-3 text-xl font-black">TITULO DO PROJETO</p>
     <p class="font-lato text-gray-400 mx-11 mb-3">Isso é uma curta descrição do projeto o importante é que seja o mais curto possivel</p>
-    <a class="bg-gradient-to-b from-[#4375A7] to-[#00DBDE] font-lato italic font-black px-3 py-2 rounded-lg" href="#">Acessar Projeto</a>
+    <a class="bg-gradient-to-b from-[#4375A7] to-[#00DBDE] font-lato italic font-bold px-3 py-2 rounded-lg" href="#">Acessar Projeto</a>
   </div>
 
+  <p class="font-inter pt-10 text-5xl bg-gradient-to-b from-[#235D6C] to-[#0AB7BE] text-transparent bg-clip-text text-center">SOBRE MIM</p>
+
   <p class="font-inter pt-10 text-5xl bg-gradient-to-b from-[#235D6C] to-[#0AB7BE] text-transparent bg-clip-text text-center mb-5">STACK</p>
-  <div class="h-2/3 grid grid-cols-3 place-items-center text-[#3498DB]">
+  <div class="h-2/3 grid grid-cols-4 place-items-center text-[#3498DB]">
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/react-original.svg" alt="Icone React">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/react-original.svg" alt="Icone React">
       <p class="font-lato text-center font-bold">REACT</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/spring-plain.svg" alt="Icone Spring">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/spring-plain.svg" alt="Icone Spring">
       <p class="font-lato text-center font-bold">SPRING</p>
     </div>
     <div class="w-16 flex flex-col place-items-center">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/tailwindcss-plain.svg" alt="Icone Tailwindcss">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/tailwindcss-plain.svg" alt="Icone Tailwindcss">
       <p class="font-lato text-center font-bold">TAILWIND</p>
     </div>
     <div class="w-16 flex flex-col place-items-center">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/postgresql-plain.svg" alt="Icone Postgresql">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/postgresql-plain.svg" alt="Icone Postgresql">
       <p class="font-lato text-center font-bold">POSTGRE</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/java-plain.svg" alt="Icone Java">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/java-plain.svg" alt="Icone Java">
       <p class="font-lato text-center font-bold">JAVA</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/github-original.svg" alt="Icone Github">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/github-original.svg" alt="Icone Github">
       <p class="font-lato text-center font-bold">GITHUB</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/git-plain.svg" alt="Icone Git">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/git-plain.svg" alt="Icone Git">
       <p class="font-lato text-center font-bold">GIT</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/html5-plain.svg" alt="Icone HTML">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/html5-plain.svg" alt="Icone HTML">
       <p class="font-lato text-center font-bold">HTML</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/css3-plain.svg" alt="Icone CSS">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/css3-plain.svg" alt="Icone CSS">
       <p class="font-lato text-center font-bold">CSS</p>
     </div>
     <div class="w-16 flex flex-col place-items-center">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/javascript-plain.svg" alt="Icone Javascript">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/javascript-plain.svg" alt="Icone Javascript">
       <p class="font-lato font-bold">JAVASCRIPT</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/linux-plain.svg" alt="Icone Linux">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/linux-plain.svg" alt="Icone Linux">
       <p class="font-lato text-center font-bold">LINUX</p>
     </div>
     <div class="w-16">
-      <img class="w-16 border-b-[#3498DB] border-b-2 pb-1 mb-1" src="./assets/svg/Icones/python-plain.svg" alt="Icone Python">
+      <img class="border-b-[#3498DB] border-b-2 pb-2 mb-2" src="./assets/svg/Icones/python-plain.svg" alt="Icone Python">
       <p class="font-lato text-center font-bold">PYTHON</p>
     </div>
   </div>
+  <footer class="h-2/3 w-screen bg-gradient-to-b from-[#235D6C] to-[#0AB7BE] pt-10">
+    <p class="font-inter font-bold text-5xl text-center">CONTATO</p>
+  </footer>
+
   <script src="estrelas.js"></script>
 </body>
 </html>
